@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import Banner from "@/components/banner/Banner";
-import { BannerProvider } from "@/components/banner/BannerContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,12 +31,7 @@ export default function RootLayout({
   gtag('config', 'G-6H2T0YGD4E');
   `}
       </Script>
-      <body className={inter.className}>
-        <BannerProvider>
-          <Banner />
-          {children}
-        </BannerProvider>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
