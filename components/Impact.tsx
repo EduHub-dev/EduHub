@@ -31,13 +31,13 @@ export function Impact() {
 
       <div className="text-center mt-20">
         <a
-          href="https://safock.com/"
+          href="https://oci.opencampus.xyz/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-8 py-3 rounded-full bg-black/30 backdrop-blur-sm border border-teal-500/20 hover:border-teal-500/50 transition-all duration-300 transform hover:scale-105"
         >
           <p className="text-gray-300 font-semibold text-lg hover:text-teal-400 transition-colors">
-          Build and Manage by Safock
+          Backed by OC Incubator
           </p>
         </a>
       </div>

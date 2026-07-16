@@ -34,6 +34,16 @@ export function Footer() {
             Careers
           </a> */}
         </div>
+        <div className="mt-2">
+          <a
+            href="https://safock.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-teal-500 transition-colors text-xs"
+          >
+            Built and Managed by Safock
+          </a>
+        </div>
       </div>
     </footer>
   );
